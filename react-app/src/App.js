@@ -1,21 +1,23 @@
-import './App.css';
-import { useState, useEffect, useRef } from 'react';
+import "./App.css";
+import { useState, useEffect, useRef } from "react";
 
 function App() {
-  const [count, setcount] = useState();
- const btnref = useRef();
+  const [count, setCount] = useState(0); // Initialize count with 0
+  const btnRef = useRef();
 
   useEffect(() => {
-    btnref.current.style.backgroundColor = "red"
-  },[])
-  
+    btnRef.current.style.backgroundColor = "red";
+  });
 
   return (
-  <>
-   <div className=" text-center ">
-     <button onClick={setcount(count+1)} ref={btnref}>count is {count}</button>
-   </div>
-  </>
+    <>
+      <div className="text-center m-20">
+        <button onClick={() => setCount(count + 1)} ref={btnRef} className=" rounded-full w-28 h-20 text-white">
+          Count is {count}
+        </button>
+        <button onClick={()=>setCount(0)}>Reset</button>
+      </div>
+    </>
   );
 }
 
