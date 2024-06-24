@@ -1,24 +1,34 @@
-import "./App.css";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useMemo } from 'react';
 
 function App() {
-  const [count, setCount] = useState(0); // Initialize count with 0
-  const btnRef = useRef();
+  const [count, setCount] = useState(0);
+  const [otherCount, setOtherCount] = useState(0);
 
-  useEffect(() => {
-    btnRef.current.style.backgroundColor = "blue";
-  });
+  // Expensive computation function
+  const expensiveComputation = (num) => {
+    console.log('Computing...');
+    for (let i = 0; i < 1000000000; i++) {} // Simulate expensive computation
+    return num * 2;
+  };
+
+  // Memoize the result of the expensive computation
+  const memoizedValue = useMemo(() => expensiveComputation(count), [count]);
 
   return (
-    <>
-      <div className="text-center m-20">
-        <h2 className=" text-black font-serif font-bold text-4xl m-4">Count Me</h2>
-        <button onClick={() => setCount(count + 1)} ref={btnRef} className=" rounded-full w-28 h-10 text-white">
-          Count is {count}
-        </button>
-        <button onClick={()=>setCount(0)} className="rounded-full w-28 h-10 border border-black m-4">Reset</button>
+    <div className="App">
+      <h1>useMemo Example</h1>
+      <div>
+        <p>Count: {count}</p>
+        <button onClick={() => setCount(count + 1)}>Increment Count</button>
       </div>
-    </>
+      <div>
+        <p>Other Count: {otherCount}</p>
+        <button onClick={() => setOtherCount(otherCount + 1)}>Increment Other Count</button>
+      </div>
+      <div>
+        <p>Memoized Value: {memoizedValue}</p>
+      </div>
+    </div>
   );
 }
 
