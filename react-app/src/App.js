@@ -7,12 +7,12 @@ function App() {
 
   useEffect(() => {
     btnref.current.style.backgroundColor = "red"
-  })
+  },[])
   
 
   return (
   <>
-   <div className=" text-center flex justify-center">
+   <div className=" text-center ">
      <button onClick={setcount(count+1)} ref={btnref}>count is {count}</button>
    </div>
   </>
