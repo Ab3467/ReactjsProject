@@ -1,10 +1,10 @@
 import React from 'react'
-import Image from "../../src/assets/"
+import logo from "../../src/assets/logo.jpg"
 
 export default function Header() {
   return (
     <header>
-        <img src={} alt="" />
+        <img src={logo} alt="logo" />
         <h1>Investment Calculator</h1>
     </header>
   )
