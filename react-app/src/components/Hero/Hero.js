@@ -3,7 +3,7 @@ import "../Hero/Hero.js"
 
 export default function Hero() {
   return (
-    <div>
+    <div className='hero'>
       
     </div>
   )
