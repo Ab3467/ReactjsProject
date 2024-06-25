@@ -6,31 +6,41 @@
     justify-content: space-between;
 }
 
-.program img{
+.program img {
     width: 100%;
     border-radius: 10px;
     display: block;
 }
-.program{
+
+.program {
     flex-basis: 31%;
     position: relative;
 }
-.caption{
+
+.caption {
     border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,15,152,0.3);
+    background: rgba(0, 15, 152, 0.3);
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     color: #fff;
     cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
 }
-.caption img{
-    width: 60px ;
+
+.caption img {
+    width: 60px;
     margin-bottom: 10px;
+}
+
+.program:hover .caption {
+    padding-top: 0;
+    opacity: 1;
 }
