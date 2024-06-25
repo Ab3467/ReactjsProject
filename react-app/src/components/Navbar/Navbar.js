@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png"
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='container'>
         <img src={logo} alt="" className='logo'/>
         <ul>
             <li>Home</li>
