@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png"
 export default function Navbar() {
   return (
     <nav>
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className='logo'/>
         <ul>
             <li>Home</li>
             <li>Program</li>
