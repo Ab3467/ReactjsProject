@@ -22,12 +22,12 @@ nav ul li{
 .container{
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
 }
 .btn {
-    padding: 5px;
-    margin: 25;
-    width: 120px;
-    height: 30px;
+    width: 122px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: medium;
+    background: #fff;
+    color: #212121;
 }
