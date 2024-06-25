@@ -6,3 +6,9 @@
     text-transform: uppercase;
     margin: 70px 0 30px;
 }
+.title h2{
+    font-size: 32px;
+    color: #000F38;
+    margin-top: 5px;
+    text-transform: none;
+}
