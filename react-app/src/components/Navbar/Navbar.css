@@ -25,3 +25,9 @@ nav ul li{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+.btn {
+    padding: 5px;
+    margin: 25;
+    width: 120px;
+    height: 30px;
+}

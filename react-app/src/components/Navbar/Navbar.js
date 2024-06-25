@@ -12,7 +12,7 @@ export default function Navbar() {
             <li>About us</li>
             <li>Campus</li>
             <li>Testimonials</li>
-            <li><button>Contact us</button></li>
+            <li><button className='btn'>Contact us</button></li>
         </ul>
     </nav>
   )
