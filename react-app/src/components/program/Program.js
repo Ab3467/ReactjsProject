@@ -12,12 +12,24 @@ export default function Program() {
     <div className='programs'>
       <div className="program">
         <img src={Program1} alt="" />
+        <div className="caption">
+          <img src={Program_icon_1} alt="" />
+          <p>Graduation degree</p>
+        </div>
       </div>
       <div className="program">
         <img src={Program2} alt="" />
+        <div className="caption">
+          <img src={Program_icon_2} alt="" />
+          <p>Master degree</p>
+        </div>
       </div>
       <div className="program">
         <img src={Program3} alt="" />
+        <div className="caption">
+          <img src={Program_icon_3} alt="" />
+          <p>Post Graduation</p>
+        </div>
       </div>
     </div>
   )
