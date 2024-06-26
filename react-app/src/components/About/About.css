@@ -3,4 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 90%;
+}
+.about-left{
+    flex-basis: 40%;
+}
+.about-right{
+    flex-basis: 56%;
 }
