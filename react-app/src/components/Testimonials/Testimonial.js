@@ -19,7 +19,7 @@ export default function Testimonial() {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>William Jackson</h3>
+                  <h3>Rossanna kyron</h3>
                   <span>Edusity, USA</span>
                 </div>
               </div>
