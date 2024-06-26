@@ -7,6 +7,7 @@ import Title from "./components/title/Title.js";
 import Campus from "./components/Campus/Campus.js"
 import Testimonial from "./components/Testimonials/Testimonial.js";
 import Contact from "./components/Contact/Contact.js";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Testimonial/>
         <Title subTitle="CONTACT US" title="Get in Touch"/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   );
