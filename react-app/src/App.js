@@ -14,6 +14,7 @@ function App() {
       <div className="container">
         <Title subTitle= "Our Program" title="What We Offer"/>
         <Program />
+        <Title subTitle="Gallery" title="Campus Photos"/>
         <About/>
       </div>
     </div>
