@@ -12,6 +12,10 @@
    width: 100%;
    border-radius: 25px;
 }
+.play-icon{
+    padding-left: 0;
+    
+}
 .about-right{
     flex-basis: 56%;
 }
