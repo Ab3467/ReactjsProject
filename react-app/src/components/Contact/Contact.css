@@ -13,5 +13,21 @@
     font-weight: 500;
     font-size: 25px;
     color: #000F38;
-
+}
+.contact-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 ;
+}
+.contact-col ul li img{
+    width: 25px;
+    margin-right: 10px;
 }

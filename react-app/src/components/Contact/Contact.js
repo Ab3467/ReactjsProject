@@ -1,8 +1,9 @@
 import React from "react";
 import "./Contact.css";
 import msg_icon from "../../assets/msg-icon.png"
-import mail_icon from "../../assets/mail-iocn.png"
+import mail_icon from "../../assets/mail-icon.png"
 import phone_icon from "../../assets/phone-icon.png"
+import location_icon from "../../assets/location-icon.png"
 
 export default function Contact() {
   return (
@@ -18,12 +19,19 @@ export default function Contact() {
         <ul>
             <li><img src={mail_icon} alt="" />alex.ab345@gmail.com</li>
             <li><img src={phone_icon} alt="" />+198765433</li>
-            <li>77 Massachusetts Ave, Cambridge
+            <li><img src={location_icon} alt="" />77 Massachusetts Ave, Cambridge
             MA 02139, United States</li>
         </ul>
       </div>
       <div className="contact-col">
-
+         <form>
+            <label>Your name</label>
+            <input type="text" name="name" placeholder="Enter your name" />
+            <label>Your Email</label>
+            <input type="text" name="name" placeholder="Enter your Email" />
+            <label>Phone Number</label>
+            <input type="text" name="name" placeholder="Enter your Number" />
+         </form>
       </div>
     </div>
   );
