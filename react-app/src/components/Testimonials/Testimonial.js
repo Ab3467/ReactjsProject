@@ -11,6 +11,9 @@ export default function Testimonial() {
     <div className='testimonails'>
       <img src={next_icon} alt="" className='next-icon'/>
       <img src={back_icon} alt="" className='back-icon'/>
+      <div className="slider">
+        
+      </div>
     </div>
   )
 }
