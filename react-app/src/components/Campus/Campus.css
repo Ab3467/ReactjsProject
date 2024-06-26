@@ -1,16 +1,17 @@
 .campus{
     margin: 80px auto;
-    width: 50%;
+    width: 90%;
     display: flex;
     align-items: center;
- 
+    justify-content: space-between;
 }
 .campus img{
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     display: block;
+    display: flex;
 }
-.gallery {
+.gallery{
     flex-basis: 31%;
     position: relative;
 }
