@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Campus.css"
+import ArrowIcon from "../../assets/dark-arrow.png"
 import g_1 from "../../assets/gallery-1.png"
 import g_2 from "../../assets/gallery-2.png"
 import g_3 from "../../assets/gallery-3.png"
@@ -14,6 +15,7 @@ export default function Campus() {
       <img src={g_3} alt="" />
       <img src={g_4} alt="" />
       </div>
+      <button className='btn'>Explore more <img src={ArrowIcon} alt="" /></button>
     </div>
   )
 }
