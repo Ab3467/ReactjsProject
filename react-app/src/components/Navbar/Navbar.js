@@ -16,12 +16,12 @@ export default function Navbar() {
  <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
         <img src={logo} alt="" className='logo'/>
         <ul>
-            <li>Home</li>
-            <li>Program</li>
-            <li>About us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
-            <li><button className='btn'>Contact us</button></li>
+            <li><Link>Home</Link></li>
+            <li><Link>Program</Link></li>
+            <li><Link>About us</Link></li>
+            <li><Link>Campus</Link></li>
+            <li><Link>Testimonials</Link></li>
+            <li><button className='btn'><Link>Contact us</Link></button></li>
         </ul>
     </nav>
   )
