@@ -6,6 +6,7 @@ import Program from "./components/program/Program.js";
 import Title from "./components/title/Title.js";
 import Campus from "./components/Campus/Campus.js"
 import Testimonial from "./components/Testimonials/Testimonial.js";
+import Contact from "./components/Contact/Contact.js";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Campus/>
         <Title subTitle="TESTIMONIALS" title="What Student Says"/>
         <Testimonial/>
+        <Title subTitle="CONTACT US" title="Get in Touch"/>
+        <Contact/>
       </div>
     </div>
   );
