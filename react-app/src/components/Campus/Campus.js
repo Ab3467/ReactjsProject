@@ -7,7 +7,12 @@ import g_4 from "../../assets/gallery-4.png"
 export default function Campus() {
   return (
     <div className='campus'>
-      
+        <div className="gallery">
+      <img src={g_1} alt="" />
+      <img src={g_2} alt="" />
+      <img src={g_3} alt="" />
+      <img src={g_4} alt="" />
+      </div>
     </div>
   )
 }
