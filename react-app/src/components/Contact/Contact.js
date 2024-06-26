@@ -26,13 +26,13 @@ export default function Contact() {
       <div className="contact-col">
          <form>
             <label>Your name</label>
-            <input type="text" name="name" placeholder="Enter your name" />
+            <input type="text" name="name" placeholder="Enter your name" required/>
             <label>Your Email</label>
-            <input type="text" name="name" placeholder="Enter your Email" />
+            <input type="text" name="email" placeholder="Enter your Email" required/>
             <label>Phone Number</label>
-            <input type="text" name="name" placeholder="Enter your Number" />
+            <input type="text" name="phone" placeholder="Enter your Number" required/>
             <label>Write your messages here</label>
-            <textarea name="name" placeholder="Enter your message"></textarea>
+            <textarea name="message" placeholder="Enter your message" cols={30} rows={10} required></textarea>
          </form>
       </div>
     </div>
