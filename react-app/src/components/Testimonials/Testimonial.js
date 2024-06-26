@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Testimonial.css"
 import back_icon from "../../assets/back-icon.png"
 import next_icon from "../../assets/next-icon.png"
 import user_1 from "../../assets/user-1.png"
