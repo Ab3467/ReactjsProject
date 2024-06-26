@@ -10,8 +10,8 @@ import user_4 from "../../assets/user-4.png";
 export default function Testimonial() {
   return (
     <div className="testimonails">
-      <img src={next_icon} alt="" className="next-btn" />
-      <img src={back_icon} alt="" className="back-btn" />
+      <img src={next_icon} alt="" className="next-btn" onClick={slideForward}/>
+      <img src={back_icon} alt="" className="back-btn" onClick={slideBackward}/>
       <div className="slider">
         <ul>
           <li>
