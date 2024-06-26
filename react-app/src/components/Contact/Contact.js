@@ -4,6 +4,7 @@ import msg_icon from "../../assets/msg-icon.png"
 import mail_icon from "../../assets/mail-icon.png"
 import phone_icon from "../../assets/phone-icon.png"
 import location_icon from "../../assets/location-icon.png"
+import white_arrow from "../../assets/white-arrow.png"
 
 export default function Contact() {
   return (
@@ -32,7 +33,8 @@ export default function Contact() {
             <label>Phone Number</label>
             <input type="text" name="phone" placeholder="Enter your Number" required/>
             <label>Write your messages here</label>
-            <textarea name="message" placeholder="Enter your message" cols={30} rows={10} required></textarea>
+            <textarea name="message" placeholder="Enter your message" rows={6} required></textarea>
+            <button className="btn dark-btn" type="submit">Sumbit now <img src={white_arrow} alt="" /></button>
          </form>
       </div>
     </div>

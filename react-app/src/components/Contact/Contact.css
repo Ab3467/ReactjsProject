@@ -31,3 +31,14 @@
     width: 25px;
     margin-right: 10px;
 }
+.contact form input, .contact form textarea{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: #EBECFE;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
