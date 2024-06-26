@@ -50,3 +50,7 @@
     resize: none;
     box-sizing: border-box;
 }
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}

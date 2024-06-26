@@ -68,6 +68,7 @@ export default function Contact() {
             Submit now <img src={white_arrow} alt="arrow icon" />
           </button>
         </form>
+        <span>Sending...</span>
       </div>
     </div>
   );
