@@ -17,7 +17,12 @@ export default function Testimonial() {
     }
     slider.current.style.transform = `translateX(${tx}%)`
   };
-  const slideBackward = () => {};
+  const slideBackward = () => {
+    if(tx < 0){
+        tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`
+  };
 
   return (
     <div className="testimonails">
