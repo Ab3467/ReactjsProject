@@ -26,6 +26,9 @@ nav ul li{
     transition: 0.5s
 }
 
-nav ul li:hover{
-    border-bottom: 1px solid #ffff;
+
+/*--------Media Query--------*/
+
+@media (max-width: 100px) {
+    
 }
