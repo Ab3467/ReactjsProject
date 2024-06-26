@@ -25,7 +25,7 @@ export default function Testimonial() {
   };
 
   return (
-    <div className="testimonails">
+    <div className="testimonails" id="testimonial">
       <img src={next_icon} alt="" className="next-btn" onClick={slideForward} />
       <img
         src={back_icon}
