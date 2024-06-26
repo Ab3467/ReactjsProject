@@ -1,10 +1,10 @@
 // import React, { useState, useMemo } from 'react';
-import About from "./components/About/About";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Program from "./components/program/Program";
-import Title from "./components/title/Title";
-
+import About from "./components/About/About.js";
+import Hero from "./components/Hero/Hero.js";
+import Navbar from "./components/Navbar/Navbar.js";
+import Program from "./components/program/Program.js";
+import Title from "./components/title/Title.js";
+import Campus from "./components/Campus/Campus.js"
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Program />
         <About/>
         <Title subTitle="Gallery" title="Campus Photos"/>
-        <Campus/>z
+        <Campus/>
       </div>
     </div>
   );
