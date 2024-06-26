@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';  // Corrected import
 import "../Navbar/Navbar.css";
 import logo from "../../assets/logo.png";
+import menu_icon from "../../assets/menu-icon.png"
+
 
 export default function Navbar() {
   const [sticky, setSticky] = useState(false);
@@ -52,6 +54,7 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
+      <img src={menu_icon} alt="" className='menu-icon'/>
     </nav>
   );
 }
