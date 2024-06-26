@@ -19,10 +19,16 @@ export default function Navbar() {
     };
   }, []);
 
+
+  const [mobileMenu, setmobileMenu] = useState(false)
+  const toggleMenu =()=>{
+    mobileMenu ? setmobileMenu(false) : setmobileMenu(true)
+  }
+
   return (
     <nav className={`container ${sticky ? 'dark-nav' : ''}`}>
       <img src={logo} alt="logo" className="logo" />
-      <ul>
+      <ul className={mobileMenu ? ' ' : 'mobile-hide-menu'}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>
             Home
@@ -54,7 +60,7 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-      <img src={menu_icon} alt="" className='menu-icon'/>
+      <img src={menu_icon} alt="" className='menu-icon' onClick={toggleMenu}/>
     </nav>
   );
 }
