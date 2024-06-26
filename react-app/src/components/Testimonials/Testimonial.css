@@ -14,3 +14,7 @@
     cursor: pointer;
     background: #212EA0 ;
 }
+.back-btn{
+    right: auto;
+    left: 0;
+}

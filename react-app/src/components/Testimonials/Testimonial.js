@@ -13,7 +13,19 @@ export default function Testimonial() {
       <img src={next_icon} alt="" className='next-btn'/>
       <img src={back_icon} alt="" className='back-btn'/>
       <div className="slider">
-
+      <ul>
+        <li>
+            <div className="slide">
+                <div className="user-info">
+                    <img src={user_1} alt="" />
+                    <div>
+                        <h3>William Jackson</h3>
+                        <span>Edusity, USA</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+      </ul>
       </div>
     </div>
   )
