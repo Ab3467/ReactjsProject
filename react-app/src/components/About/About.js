@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import about_img from "../../assets/about.png";
-import play_icon from "../../assets/play_icon.png";
+import play_icon from "../../assets/play-icon.png";
 
 export default function About() {
   return (
