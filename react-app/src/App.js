@@ -1,4 +1,5 @@
 // import React, { useState, useMemo } from 'react';
+import About from "./components/About/About";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Program from "./components/program/Program";
@@ -14,6 +15,7 @@ function App() {
         <Title subTitle= "Our Program" title="What We Offer"/>
         <Program />
       </div>
+      <About/>
     </div>
   );
 }
