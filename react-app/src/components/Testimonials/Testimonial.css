@@ -18,3 +18,12 @@
     right: auto;
     left: 0;
 }
+.slider{
+    overflow: hidden;  
+}
+.slider ul{
+    display: font-size;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}

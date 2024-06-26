@@ -31,6 +31,57 @@ export default function Testimonial() {
               </p>
             </div>
           </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_2} alt="" />
+                <div>
+                  <h3>Ronaldo Epix</h3>
+                  <span>Edusity, USA</span>
+                </div>
+              </div>
+              <p>
+                Choosing to pursue my degree at Edusity was one of the best
+                decisions I've ever made. The supportive community,
+                state-of-the-art facilities, and commitment to academic
+                excellence have truly exceeded my expectations.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_3} alt="" />
+                <div>
+                  <h3>Roy Arkum</h3>
+                  <span>Edusity, USA</span>
+                </div>
+              </div>
+              <p>
+                Choosing to pursue my degree at Edusity was one of the best
+                decisions I've ever made. The supportive community,
+                state-of-the-art facilities, and commitment to academic
+                excellence have truly exceeded my expectations.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div className="slide">
+              <div className="user-info">
+                <img src={user_4} alt="" />
+                <div>
+                  <h3>John Mendal</h3>
+                  <span>Edusity, USA</span>
+                </div>
+              </div>
+              <p>
+                Choosing to pursue my degree at Edusity was one of the best
+                decisions I've ever made. The supportive community,
+                state-of-the-art facilities, and commitment to academic
+                excellence have truly exceeded my expectations.
+              </p>
+            </div>
+          </li>
         </ul>
       </div>
     </div>
