@@ -31,6 +31,8 @@ export default function Contact() {
             <input type="text" name="name" placeholder="Enter your Email" />
             <label>Phone Number</label>
             <input type="text" name="name" placeholder="Enter your Number" />
+            <label>Write your messages here</label>
+            <textarea name="name" placeholder="Enter your message"></textarea>
          </form>
       </div>
     </div>
