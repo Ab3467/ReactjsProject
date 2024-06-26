@@ -8,6 +8,10 @@
 .about-left{
     flex-basis: 40%;
 }
+.about-img{
+   width: 100%;
+   border-radius: 25px;
+}
 .about-right{
     flex-basis: 56%;
 }
