@@ -9,6 +9,7 @@ import Testimonial from "./components/Testimonials/Testimonial.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
 import { useState } from "react";
+import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
 
 function App() {
   const [playstate, setplaystate] = useState(false)
@@ -28,6 +29,7 @@ function App() {
         <Contact/>
         <Footer/>
       </div>
+      <VideoPlayer playstate={playstate} setplaystate={setplaystate}/>
     </div>
   );
 }
