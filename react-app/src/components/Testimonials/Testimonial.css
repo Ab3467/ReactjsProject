@@ -1,9 +1,11 @@
-.testimonails{
+.testimonails {
     margin: 80px auto;
     padding: 0 80px;
     position: relative;
 }
-.next-btn, .back-btn{
+
+.next-btn,
+.back-btn {
     position: absolute;
     top: 50%;
     right: 0;
@@ -12,46 +14,81 @@
     width: 50px;
     border-radius: 50%;
     cursor: pointer;
-    background: #212EA0 ;
+    background: #212EA0;
 }
-.back-btn{
+
+.back-btn {
     right: auto;
     left: 0;
 }
-.slider{
-    overflow: hidden;  
+
+.slider {
+    overflow: hidden;
 }
-.slider ul{
+
+.slider ul {
     display: flex;
     width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
-   
+
 }
-.slider ul li{
+
+.slider ul li {
     list-style: none;
     width: 50%;
     padding: 20px;
 }
-.slide{
+
+.slide {
     box-shadow: 0 0 20px rgba(219, 183, 183, 0.5);
-     padding: 40px;
-     border-radius: 10px;
-     color: #676767;
-     line-height: 1.4;
+    padding: 40px;
+    border-radius: 10px;
+    color: #676767;
+    line-height: 1.4;
 }
-.slide img{
-  width: 65px;
-  border-radius: 50%;
-  margin-right: 10px;
-  border: 4px solid #212EA0;
+
+.slide img {
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212EA0;
 }
-.user-info{
+
+.user-info {
     display: flex;
     margin-bottom: 20px;
     font-size: 15px;
     align-items: center;
 }
-.user-info h3{
+
+.user-info h3 {
     color: #212EA0;
+}
+
+
+/*--------Media Query--------*/
+
+@media (max-width : 800px) {
+    .testimonails {
+        padding: 0 48px;
+    }
+
+    .next-btn,
+    .back-btn {
+        padding: 10px;
+        width: 35px;
+
+    }
+
+    .testimonails ul li {
+        padding: 10px;
+    }
+    .slide{
+        padding: 10px;
+    }
+    .slide img{
+        width: 50px;
+        border: 3px solid #212EA0;
+    }
 }
