@@ -1,9 +1,12 @@
 import React from 'react'
 import "./VideoPlayer.css"
-export default function VideoPlayer() {
+import video from "../../assets/video.mp4"
+
+
+export default function VideoPlayer({playstate,setplaystate}) {
   return (
-    <div className='video-player hide'>
-      <video src={}></video>
+    <div className={`video-player ${playstate ? 'hide' : ""} `}>
+      <video src={video}></video>
     </div>
   )
 }
