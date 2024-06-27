@@ -22,7 +22,13 @@
     left: 44%;
     width: 60px;
     transform: translateY(-50%, -50%);
+    cursor: pointer;
 }
+.play-icon:hover{
+    background: #644cff;
+    border-radius: 30px;
+}
+
 .about-right {
     flex-basis: 56%;
 }
