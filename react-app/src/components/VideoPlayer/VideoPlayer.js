@@ -5,8 +5,8 @@ import video from "../../assets/video.mp4"
 
 export default function VideoPlayer({playstate,setplaystate}) {
   return (
-    <div className={`video-player ${playstate ? 'hide' : ""} `}>
-      <video src={video}></video>
+    <div className={`video-player ${playstate ? '' : "hide"} `}>
+      <video src={video} autoPlay muted controls></video>
     </div>
   )
 }

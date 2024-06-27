@@ -8,7 +8,6 @@ import Campus from "./components/Campus/Campus.js"
 import Testimonial from "./components/Testimonials/Testimonial.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
-import { useState } from "react";
 import VideoPlayer from './components/VideoPlayer/VideoPlayer.js';
 
 function App() {
