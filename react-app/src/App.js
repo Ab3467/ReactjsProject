@@ -1,4 +1,4 @@
-// import React, { useState, useMemo } from 'react';
+import React, { useState} from 'react';
 import About from "./components/About/About.js";
 import Hero from "./components/Hero/Hero.js";
 import Navbar from "./components/Navbar/Navbar.js";
@@ -8,8 +8,10 @@ import Campus from "./components/Campus/Campus.js"
 import Testimonial from "./components/Testimonials/Testimonial.js";
 import Contact from "./components/Contact/Contact.js";
 import Footer from "./components/Footer/Footer.js";
+import { useState } from "react";
 
 function App() {
+  const [playstate, setplaystate] = useState(false)
   return (
     <div>
       <Navbar />
