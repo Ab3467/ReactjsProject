@@ -2,7 +2,8 @@
     margin: 80px auto;
     max-width: 90%;
     display: flex;
-    align-items: flex-start; /* Changed from center to flex-start */
+    align-items: flex-start;
+    /* Changed from center to flex-start */
     justify-content: space-between;
 }
 
@@ -50,7 +51,23 @@
     resize: none;
     box-sizing: border-box;
 }
-.contact-col span{
+
+.contact-col span {
     display: block;
     margin: 20px 0;
+}
+
+
+
+/*--------Media Query--------*/
+
+@media (max-width : 700px) {
+    .contact {
+        display: block;
+    }
+
+    .contact-col {
+        padding: 20px;
+    }
+
 }
