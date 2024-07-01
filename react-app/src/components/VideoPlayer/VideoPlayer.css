@@ -1,10 +1,10 @@
-.video-player{
+.video-player {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     z-index: 100;
     display: flex;
     align-items: center;
@@ -12,13 +12,14 @@
 }
 
 
-.video-player video{
+.video-player video {
     width: 90%;
     max-width: 900px;
     height: auto;
     border: 4px solid #fff;
 }
-.video-player.hide{
+
+.video-player.hide {
     display: none;
 
 }
